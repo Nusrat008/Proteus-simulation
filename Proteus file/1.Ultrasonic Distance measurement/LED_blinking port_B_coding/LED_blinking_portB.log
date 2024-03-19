@@ -1,0 +1,9 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo16 -N"G:\PIC 16F73\Mikro Coding\LED_blinking port_B_coding\LED_blinking_portB.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"G:\PIC 16F73\Mikro Coding\LED_blinking port_B_coding\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -IP"G:\PIC 16F73\Mikro Coding\LED_blinking port_B_coding\" "LED_blinking_portB.c" "NewUnit_0.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 123	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	LED_blinking_portB.c
+diagnostics: 10	123	Compiled Successfully	LED_blinking_portB.c
+error: 0	340	File 'NewUnit_0.c' not found	 
+diagnostics: 0	127	All files Compiled in 63 ms	 
+error: 0	102	Finished (with errors): 14 Jul 2023, 00:05:24	LED_blinking_portB.mcppi

@@ -1,0 +1,18 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F628A -DL -O11111114 -fo8 -N"G:\PIC 16F73\Mikro Coding\us project\Nazia.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"G:\PIC 16F73\Mikro Coding\us project\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -IP"G:\PIC 16F73\Mikro Coding\us project\" "Nazia.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Button.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_PWM_b3.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 208 [bytes], Available ROM: 2048 [bytes]	 
+diagnostics: 0	122	Compilation Started	Nazia.c
+error: 2	304	global variable expected after at but [ RD2_bit ] found	Nazia.c
+error: 2	402	; expected, but 'RD2_bit' found	Nazia.c
+error: 3	402	; expected, but 'at' found	Nazia.c
+error: 3	371	Specifier needed	Nazia.c
+error: 3	396	Invalid declarator expected'(' or identifier	Nazia.c
+error: 4	402	; expected, but 'at' found	Nazia.c
+error: 4	371	Specifier needed	Nazia.c
+error: 4	396	Invalid declarator expected'(' or identifier	Nazia.c
+error: 4	393	'' Identifier redefined	Nazia.c
+error: 5	402	; expected, but 'at' found	Nazia.c
+error: 5	371	Specifier needed	Nazia.c
+error: 5	396	Invalid declarator expected'(' or identifier	Nazia.c
+error: 5	393	'' Identifier redefined	Nazia.c
+error: 5	312	Internal error ''	Nazia.c
+error: 0	102	Finished (with errors): 14 Jul 2023, 00:15:44	Nazia.mcppi

@@ -1,0 +1,30 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F876A -DL -O11111114 -fo8 -N"G:\PIC 16F73\Mikro Coding\Ultrasonic_sensor_final_coding\US_final_code\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"G:\PIC 16F73\Mikro Coding\Ultrasonic_sensor_final_coding\US_final_code\" -SP"G:\PIC 16F73\Mikro Coding\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -IP"G:\PIC 16F73\Mikro Coding\Ultrasonic_sensor_final_coding\US_final_code\" "exp_04.c" "NewUnit_0.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_TouchPanel.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	exp_04.c
+diagnostics: 56	123	Compiled Successfully	exp_04.c
+error: 16	304	 error: Can't open include file "xc.h"     #include <xc.h> 1 error in preprocessor.	G:\PIC 16F73\Mikro Coding\NewUnit_0.c
+warning: 0	1507	Unknown pragma line ignored: ''	NewUnit_0.c
+warning: 0	1507	Unknown pragma line ignored: ''	NewUnit_0.c
+warning: 0	1507	Unknown pragma line ignored: ''	NewUnit_0.c
+warning: 0	1507	Unknown pragma line ignored: ''	NewUnit_0.c
+warning: 0	1507	Unknown pragma line ignored: ''	NewUnit_0.c
+warning: 0	1507	Unknown pragma line ignored: ''	NewUnit_0.c
+warning: 0	1507	Unknown pragma line ignored: ''	NewUnit_0.c
+warning: 0	1507	Unknown pragma line ignored: ''	NewUnit_0.c
+diagnostics: 0	122	Compilation Started	NewUnit_0.c
+error: 64	324	Undeclared identifier 'RD4' in expression	NewUnit_0.c
+error: 68	324	Undeclared identifier 'RD4' in expression	NewUnit_0.c
+error: 74	324	Undeclared identifier 'RD5' in expression	NewUnit_0.c
+error: 78	324	Undeclared identifier 'RD5' in expression	NewUnit_0.c
+error: 84	324	Undeclared identifier 'RD6' in expression	NewUnit_0.c
+error: 88	324	Undeclared identifier 'RD6' in expression	NewUnit_0.c
+error: 94	324	Undeclared identifier 'RD7' in expression	NewUnit_0.c
+error: 98	324	Undeclared identifier 'RD7' in expression	NewUnit_0.c
+error: 104	393	'Lcd_Cmd' Identifier redefined	NewUnit_0.c
+error: 108	324	Undeclared identifier 'RD2' in expression	NewUnit_0.c
+error: 110	324	Undeclared identifier 'a' in expression	NewUnit_0.c
+error: 112	324	Undeclared identifier 'RD3' in expression	NewUnit_0.c
+error: 114	324	Undeclared identifier '__delay_ms' in expression	NewUnit_0.c
+error: 116	324	Undeclared identifier 'RD3' in expression	NewUnit_0.c
+error: 118	312	Internal error ''	NewUnit_0.c
+error: 0	102	Finished (with errors): 12 Aug 2023, 15:56:53	MyProject.mcppi

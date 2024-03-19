@@ -1,0 +1,7 @@
+[PROJECTS]
+Count=3
+Project0=..\us_project_demo.mcppi
+Project1=Nazis.mcppi
+Project2=Nazia.mcppi
+[ActiveProject]
+Index=0
